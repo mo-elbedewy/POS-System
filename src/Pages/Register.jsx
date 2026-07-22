@@ -24,8 +24,8 @@ const Register = () => {
   };
 
   return (
-    <div className="min-h-screen flex bg-linear-to-b from-[#faf6ef]
-    to-[#f0e5d2] items-center justify-center p-6">
+    <div className="p-6 pt-25 pb-25 min-h-screen flex bg-linear-to-b from-[#faf6ef]
+    to-[#f0e5d2] items-center justify-center">
       
     <motion.div initial={{ opacity: 0 , y: 30}} animate={{ opacity: 1 , y: 0}}
         transition={{ duration: 0.7 }}

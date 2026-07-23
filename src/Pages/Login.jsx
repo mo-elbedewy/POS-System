@@ -56,7 +56,7 @@ const Login = () => {
           </motion.div>
 
           <motion.div initial={{ opacity: 0 , x: -20}} animate={{ opacity: 1 , x: 0}}
-          transition={{delay: 0.1}}>
+            transition={{delay: 0.1}}>
             <label className="text-neutral-800 font-medium">Password</label> 
 
             <div className="flex items-center border border-neutral-300 rounded-xl p-2
@@ -78,7 +78,7 @@ const Login = () => {
           <motion.button whileHover={{scale:1.03}} whileTap={{scale:0.97}} type="submit"
             className="mt-4 py-3 bg-[#C9A86A] text-white font-semibold
             rounded-xl shadow-lg  hover:bg-[#b8965f] transition text-lg">
-              Login
+              Register
             </motion.button>
 
         </form>
